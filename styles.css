@@ -1,0 +1,205 @@
+/* HEADER */
+body {
+	margin: 0 auto;
+}
+
+header .logo img {
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+
+}
+
+header .logo {
+	max-width: 30%;
+	max-height: 3em;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+
+nav li {
+	padding: 10px;
+	display: inline-block;
+	float: right;
+
+}
+
+
+nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #e5cc70;
+	font-weight: 600;
+}
+
+nav li a:hover {
+	text-decoration:none;
+	color: #4dd2ff;
+}
+.banner 
+{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+	background: #e5cc70;
+
+
+}
+
+ul {
+	text-align: right;
+}
+
+
+
+
+/* MAIN  */
+.row img {
+margin-top: 20px;
+}
+
+.row h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 42px;
+    color:#339933;
+    border: 4px solid #C39BD3;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+}
+
+.row h1:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 42px;
+    color:#339933;
+    font-family:  cursive, 'Pacifico';
+}
+.row h2 {
+	    border: 5px solid #C39BD3 ;
+	    text-align:center;
+	    padding: 10px;
+	    color: #339933;
+
+}
+
+.row img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s; opacity: 0.5s;
+
+}
+
+.row img:hover {
+    opacity: 1;
+    
+}
+
+
+
+
+body {
+    background-image: url("images/bg.png");
+    background-repeat: repeat-y center;
+}
+p {
+	font-size: 14px;
+	padding: 40px;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+/* ASIDE */
+
+
+
+
+/* FOOTER */
+footer p  {
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+footer {
+	background: #e5cc70;
+}
+
+footer h2 {
+	text-align:center;
+	color:#C39BD3;
+	padding: 10px;
+
+}
+
+
+
+#storespage img {
+	height: 200px;
+	width: 100px; 
+	display: inline-block;
+}
+
+.info {
+	text-align: center;
+	display: inline-block;
+}
+
+.social {
+		display: inline-block;
+
+
+}
+.social li {
+	float: right;
+	text-decoration: none;
+	padding-left: 20px;
+}
+
+.social ul {
+	list-style-type: none;
+}
+.info p {
+	text-decoration: none;
+	font-size: 16px;
+
+}
+
+#storespage .images {
+	display: flex;
+}
+
+#storespage .images img {
+	flex: 2;
+}
+/* COLORS
+#339933 green
+#e5cc70  orange
+#4dd2ff  light blue
+#C39BD3  purple
+
+font-family: 'Pacifico', cursive;
+font-family: 'Work Sans', sans-serif;
+
+*/
+
+
+
